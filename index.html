@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<link rel="stylesheet" href="./style.css">
+	<title>消費税計算機!!</title>
+	<!-- CSS -->
+	
+</head>
+<body>
+	
+	<h1>消費税計算機</h1>
+	
+
+	<h3>
+		税別価格
+	</h3>
+	<p>
+		¥<input type="text" value="0" id="zeibetu">
+	</p>
+	<h3>
+		消費税率
+	</h3>
+	<p><form id="target">
+		<label><input type="radio" name="zeiritu" value = a>8％</label>
+		<label><input type="radio" name="zeiritu" value = b>10％</label>
+	</form></p>
+	<p>
+		<button id="btn">税込み価格は？💴</button>
+	</p>
+	<p>
+		税込み価格は<span id="zeikomi">*</span>円、うち消費税は<span id="shoihizei">*</span>円です
+	</p>
+
+	
+	<!-- JavaScript -->
+	<script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
